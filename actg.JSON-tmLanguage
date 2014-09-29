@@ -1,0 +1,40 @@
+{
+    "name": "Nucleotides",
+    "scopeName": "source.nucleotides",
+    "fileTypes": [
+    "fq",
+    "fastq",
+    "fa",
+    "fasta",
+    "sam",
+    "vcf"
+  ],
+    "patterns": [
+        {
+            "match": "A",
+            "name": "keyword.control.nucleotides",
+            "comment": "adenine"
+    },
+        {
+            "match": "C",
+            "name": "entity.name.function.nucleotides",
+            "comment": "cytosine"
+    },
+        {
+            "match": "T",
+            "name": "constant.numeric.source.nucleotides",
+            "comment": "thymine"
+    },
+        {
+            "match": "G",
+            "name": "string.quoted.source.nucleotides",
+            "comment": "guanine"
+    },
+        {
+            "match": "N",
+            "name": "comment.block.source.nucleotides",
+            "comment": "unknown"
+    }
+  ],
+    "uuid": "34f308ec-03a9-428e-93dd-d8eae6648d7f"
+}

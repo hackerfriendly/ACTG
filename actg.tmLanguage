@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>fq</string>
+		<string>fastq</string>
+		<string>fa</string>
+		<string>fasta</string>
+		<string>sam</string>
+		<string>vcf</string>
+	</array>
+	<key>name</key>
+	<string>Nucleotides</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>adenine</string>
+			<key>match</key>
+			<string>A</string>
+			<key>name</key>
+			<string>keyword.control.nucleotides</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>cytosine</string>
+			<key>match</key>
+			<string>C</string>
+			<key>name</key>
+			<string>entity.name.function.nucleotides</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>thymine</string>
+			<key>match</key>
+			<string>T</string>
+			<key>name</key>
+			<string>constant.numeric.source.nucleotides</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>guanine</string>
+			<key>match</key>
+			<string>G</string>
+			<key>name</key>
+			<string>string.quoted.source.nucleotides</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>unknown</string>
+			<key>match</key>
+			<string>N</string>
+			<key>name</key>
+			<string>comment.block.source.nucleotides</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.nucleotides</string>
+	<key>uuid</key>
+	<string>34f308ec-03a9-428e-93dd-d8eae6648d7f</string>
+</dict>
+</plist>

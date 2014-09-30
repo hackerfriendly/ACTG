@@ -21,3 +21,8 @@ Releases
 --------
 
 * 0.0.1: Initial release, 2014-09-29
+
+Thanks
+------
+
+Developed at Spiral Genetics, http://www.spiralgenetics.com/
